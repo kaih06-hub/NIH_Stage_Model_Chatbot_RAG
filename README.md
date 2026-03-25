@@ -1,6 +1,6 @@
 # NIH Stage Model RAG Chatbot
 
-A research chatbot built to support behavioral intervention researchers working within the **NIH Stage Model** framework. The system uses Retrieval-Augmented Generation (RAG) to ground responses in peer-reviewed literature, surfacing relevant case studies, methodologies, and stage-specific guidance based on where a researcher is in their intervention development journey.
+A research chatbot built to support behavioral intervention researchers working within the **NIH Stage Model** framework. Two main functionalities include1 1. helping define the current stage of the research project, and 2. providing feedback on the research progress and giving guidance on next steps. The system uses Retrieval-Augmented Generation (RAG) to ground responses in peer-reviewed literature, surfacing relevant case studies, methodologies, and stage-specific guidance based on where a researcher is in their intervention development journey.
 
 ---
 
@@ -142,7 +142,7 @@ python nih_rag_pipeline.py
 
 ### Method 2 — Local PDF Ingestion
 
-Processes manually curated PDF files from `/paper_files/` using `pdfplumber`, which preserves table content as readable inline text rows alongside body text.
+Processes manually curated PDF files from `/paper_files/` using `pdfplumber`, which preserves table content as readable inline text rows alongside body text. The local pdf incldues the robust definitions of each of the stage within the NIH stage model, serving as master definition framework for identifying stages before any other steps.
 
 ```
 PDF files → pdfplumber → text + tables → chunk → embed → Qdrant
