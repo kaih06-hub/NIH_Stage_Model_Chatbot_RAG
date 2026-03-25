@@ -1,6 +1,6 @@
 # NIH Stage Model RAG Chatbot
 
-A research chatbot built to support behavioral intervention researchers working within the **NIH Stage Model** framework. Two main functionalities include1 1. helping define the current stage of the research project, and 2. providing feedback on the research progress and giving guidance on next steps. The system uses Retrieval-Augmented Generation (RAG) to ground responses in peer-reviewed literature, surfacing relevant case studies, methodologies, and stage-specific guidance based on where a researcher is in their intervention development journey.
+A research chatbot built to support behavioral intervention researchers working within the **NIH Stage Model** framework. Two main functionalities include **1. helping define the current stage of the research project**, and **2. providing feedback on the research progress and giving guidance on next steps**. The system uses Retrieval-Augmented Generation (RAG) to ground responses in peer-reviewed literature, surfacing relevant case studies, methodologies, and stage-specific guidance based on where a researcher is in their intervention development journey.
 
 ---
 
